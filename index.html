@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barber Shop - Style Your Hair</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/e6b8371d90.js" crossorigin="anonymous"></script>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/fabicon.png" type="image/x-icon">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header section -->
+    <section id="header">
+        <div class="nav-bar">
+            <img src="assets/logo.png" alt="logo" class="logo">
+            <img src="assets/menu.png" alt="menu" class="menu" onclick="openmenu()">
+        </div>
+
+        <nav>
+            <ul class="nav-menu" id="sidemenu">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">FEATURES</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">TESTIMONIALS</a></li>
+                <li><a href="#">MEET US</a></li>
+
+                <img src="assets/close.png" alt="close" class="close" onclick="closemenu()">
+            </ul>
+        </nav>
+
+        <div class="header-contents">
+            <h1>Hair Studio</h1>
+            <p>Style Your Hair, Style Your Life</p>
+            <p id="name">Fama Barber Shop and Beauty Salon</p>
+            <div class="header-btn">
+                <a href="#"><span></span>Find Out</a>
+                <a href="#"><span></span>Read More</a>
+            </div>
+        </div>
+    </section>
+    <!-- Features section -->
+    <section id="features">
+        <div class="title-text">
+            <p>FEATURES</p>
+            <h2>Why Choose Us?</h2>
+        </div>
+        <div class="feature-contents">
+            <div class="feature-text">
+                <div class="feature">
+                    <h3>Experienced Staff</h3>
+                    <div class="row">
+                        <span class="feature-icon"><i class="fa-solid fa-shield-halved"></i></span>
+                        <span class="feature-details">Lorem ipsum dolor sit amet consectetur, adipisicing elit nihil
+                            exercitationem.</span>
+                    </div>
+                </div>
+                <div class="feature">
+                    <h3>Free Booking Online</h3>
+                    <div class="row">
+                        <span class="feature-icon"><i class="fa-solid fa-check-to-slot"></i></span>
+                        <span class="feature-details">Lorem ipsum dolor sit amet consectetur, adipisicing elit erum
+                            molestias!</span>
+                    </div>
+                </div>
+                <div class="feature">
+                    <h3>Affordable Cost</h3>
+                    <div class="row">
+                        <span class="feature-icon"><i class="fa-solid fa-bangladeshi-taka-sign"></i></span>
+                        <span class="feature-details">Lorem ipsum dolor sit amet consectetur adipisicing elit ebitis
+                            etain.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="feature-img">
+                <img src="assets/barber-man.jpg" alt="barber-man">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services section -->
+    <section id="services">
+        <div class="title-text">
+            <p>SERVICES</p>
+            <h2>We Provide Better</h2>
+        </div>
+
+        <div class="services-content">
+            <div class="service">
+                <img src="assets/pic-1.jpg" alt="pic-1">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Hair Styling</h3>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum blanditiis eveniet
+                            consequuntur recusandae quas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="service">
+                <img src="assets/pic-2.jpg" alt="pic-2">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Beard Trim</h3>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum blanditiis eveniet
+                            consequuntur recusandae quas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="service">
+                <img src="assets/pic-3.jpg" alt="pic-3">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Hair Cut</h3>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum blanditiis eveniet
+                            consequuntur recusandae quas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="service">
+                <img src="assets/pic-4.jpg" alt="pic-4">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Dry Shampoo</h3>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum blanditiis eveniet
+                            consequuntur recusandae quas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <div class="title-text">
+            <p>TESTIMONIALS</p>
+            <h2>What Client Says</h2>
+        </div>
+        <div class="testimonials-content">
+            <div class="testimonial">
+                <div class="header">
+                    <div class="img">
+                        <img src="assets/img-1.jpg" alt="img-1">
+                    </div>
+                    <div class="user">
+                        <h4>KEN NORMAN <i class="fa-brands fa-twitter"></i> </h4>
+                        <p>@kennorman</p>
+                    </div>
+                </div>
+                <div class="body">
+                    <p>Costly compared to other barbershops with better haircuts.</p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="header">
+                    <div class="img">
+                        <img src="assets/img-2.jpg" alt="img-2">
+                    </div>
+                    <div class="user">
+                        <h4>LIARA KARIUM <i class="fa-brands fa-twitter"></i> </h4>
+                        <p>@liarakarium</p>
+                    </div>
+                </div>
+                <div class="body">
+                    <p>Costly compared to other barbershops with better haircuts.</p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="header">
+                    <div class="img">
+                        <img src="assets/img-3.jpg" alt="img-3">
+                    </div>
+                    <div class="user">
+                        <h4>RICKY DANIALS <i class="fa-brands fa-twitter"></i> </h4>
+                        <p>@rickydanials</p>
+                    </div>
+                </div>
+                <div class="body">
+                    <p>Costly compared to other barbershops with better haircuts.</p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <section id="footer">
+        <img src="assets/footer-img.png" alt="footer-img" class="footer-img">
+        <div class="title-text">
+            <p>Contact</p>
+            <h2>Visit Shop Today</h2>
+        </div>
+        <div class="footer-content">
+            <div class="left">
+                <h4>Opening Hours</h4>
+                <p><i class="fa-solid fa-clock"></i>Monday To Friday - 9am to 7pm </p>
+                <p><i class="fa-solid fa-clock"></i>Sunday - Closed </p>
+            </div>
+            <div class="right">
+                <h4>Get In Touch</h4>
+                <p>91, Xyz Road, Moghbazar, Dhaka: 1217<i class="fa-solid fa-location-dot"></i></p>
+                <p>hello@contact.us<i class="fa-solid fa-envelope"></i></p>
+                <p>+8801234567890<i class="fa-solid fa-phone"></i></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="social-icon">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="copyright">
+                <p>Copyright ©️ Fama. Made with <i class="fa-solid fa-heart"></i> by <a
+                        href="https://www.facebook.com/itzAla71" target="_blank">Fama</a></p>
+            </div>
+        </div>
+    </section>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
